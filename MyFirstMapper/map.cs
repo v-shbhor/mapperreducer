@@ -16,6 +16,7 @@ namespace MyFirstMapper
     {
         static void main(string[] args)
         {
+
             if (args.Length > 0)
             {
                 Console.SetIn(new StreamReader(args[0]));
