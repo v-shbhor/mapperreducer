@@ -33,47 +33,51 @@ namespace MyFirstMapper
                     {
                         key = "0-4yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 2)
+                    else if (Convert.ToInt16(words[7]) <= 2)
                     {
                         key = "5-9yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 3)
+                    else if (Convert.ToInt16(words[7]) <= 3)
                     {
                         key = "10-14yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 4)
+                    else if (Convert.ToInt16(words[7]) <= 4)
                     {
                         key = "15-19yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 5)
+                    else if (Convert.ToInt16(words[7]) <= 5)
                     {
                         key = "20-24yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 6)
+                    else if (Convert.ToInt16(words[7]) <= 6)
                     {
                         key = "25-29yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 7)
+                    else if (Convert.ToInt16(words[7]) <= 7)
                     {
                         key = "30-34yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 8)
+                    else if (Convert.ToInt16(words[7]) <= 8)
                     {
                         key = "35-39yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 9)
+                    else if (Convert.ToInt16(words[7]) <= 9)
                     {
                         key = "40-44yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 10)
+                    else if (Convert.ToInt16(words[7]) <= 10)
                     {
                         key = "45-49yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 11)
+                    else if (Convert.ToInt16(words[7]) <= 11)
                     {
                         key = "50-54yrs";
                     }
-                    if (Convert.ToInt16(words[7]) <= 12)
+                    else if (Convert.ToInt16(words[7]) <= 12)
+                    {
+                        key = "55-59yrs";
+                    }
+                    else 
                     {
                         key = "Above59yrs";
                     }
