@@ -46,6 +46,8 @@ namespace LinQtoHive
 
     public class MyHiveDatabase : HiveConnection
     {
+    //WebHcat client librabry manages the scheduling and execution of jobs in an HDInsight cluster
+    //WebHDFS client library works with files in HDFS and Windows Azure Blob Storage 1.Scalable rest api ,move files in and out and delete from hdfs ,perform file and directory functions
         public MyHiveDatabase(Uri webHCatUri, string username, string password, string storageaccount, string storagekey) : base(webHCatUri, username, password, storageaccount, storagekey) { }
 
         public HiveTable<te_census_inforow> te_census_info1
